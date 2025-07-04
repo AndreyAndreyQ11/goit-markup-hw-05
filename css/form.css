@@ -25,6 +25,7 @@
 }
 
 .pop-up-container-close {
+  margin-left: auto;
   border-radius: 100%;
   background-color: #e7e9fc;
 
