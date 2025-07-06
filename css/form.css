@@ -80,6 +80,7 @@
 .form-group {
   margin-bottom: 8px;
 }
+
 .last-form-group {
   margin-bottom: 16px;
 }
@@ -159,7 +160,9 @@
   justify-content: center;
   fill: transparent;
 }
-.input-checkbox:checked ~ .checkbox-user-privacy-icon-span {
+.input-checkbox:checked
+  + .checkbox-user-privacy
+  .checkbox-user-privacy-icon-span {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
