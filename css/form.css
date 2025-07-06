@@ -80,7 +80,9 @@
 .form-group {
   margin-bottom: 8px;
 }
-
+.last-form-group {
+  margin-bottom: 16px;
+}
 .form-label {
   font-size: 12px;
   line-height: 1.17;
@@ -134,9 +136,6 @@
   margin-bottom: 24px;
 }
 
-.form-group-checkbox:last-child {
-  margin-bottom: 16px;
-}
 .checkbox-user-privacy {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
